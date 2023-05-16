@@ -1,0 +1,106 @@
+Dependencies for Project 'sample', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\startup_LPC17xx.s)(0x5E106E0F)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1"--list .\startup_lpc17xx.lst --xref -o .\startup_lpc17xx.o --depend .\startup_lpc17xx.d)
+F (.\sample.c)(0x5E165294)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DLPC175x_6x-o .\sample.o --omf_browse .\sample.crf --depend .\sample.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\LPC17xx.H)(0x58493F92)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8FB044)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (led/led.h)(0x5E10C69E)
+I (button_EXINT/button.h)(0x5E107060)
+I (timer/timer.h)(0x5E12020B)
+I (RIT/RIT.h)(0x5E106EF6)
+I (joystick/joystick.h)(0x5E106EA6)
+I (elevator/elevator.h)(0x5E11F827)
+F (.\common.h)(0x5E137F13)()
+F (.\core_cm3.c)(0x5E106E0D)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DLPC175x_6x-o .\core_cm3.o --omf_browse .\core_cm3.crf --depend .\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+F (.\system_LPC17xx.c)(0x5E1495C3)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DLPC175x_6x-o .\system_lpc17xx.o --omf_browse .\system_lpc17xx.crf --depend .\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\LPC17xx.h)(0x58493F92)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25F326)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8FB044)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x58493F92)
+F (.\led\lib_led.c)(0x5E10C666)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DLPC175x_6x-o .\lib_led.o --omf_browse .\lib_led.crf --depend .\lib_led.d)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\lpc17xx.h)(0x58493F92)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8FB044)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (led\led.h)(0x5E10C69E)
+F (.\led\led.h)(0x5E10C69E)()
+F (.\button_EXINT\button.h)(0x5E107060)()
+F (.\button_EXINT\IRQ_button.c)(0x5E164061)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DLPC175x_6x-o .\irq_button.o --omf_browse .\irq_button.crf --depend .\irq_button.d)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\lpc17xx.h)(0x58493F92)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8FB044)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (button_EXINT\button.h)(0x5E107060)
+I (button_EXINT\../timer/timer.h)(0x5E12020B)
+I (button_EXINT\../led/led.h)(0x5E10C69E)
+I (button_EXINT\../elevator/elevator.h)(0x5E11F827)
+I (button_EXINT\../rit/rit.h)(0x5E106EF6)
+F (.\timer\IRQ_timer.c)(0x5E16530E)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DLPC175x_6x-o .\irq_timer.o --omf_browse .\irq_timer.crf --depend .\irq_timer.d)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\lpc17xx.h)(0x58493F92)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8FB044)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (timer\timer.h)(0x5E12020B)
+I (timer\../common.h)(0x5E137F13)
+I (timer\../led/led.h)(0x5E10C69E)
+I (timer\../elevator/elevator.h)(0x5E11F827)
+I (timer\../rit/rit.h)(0x5E106EF6)
+F (.\timer\timer.h)(0x5E12020B)()
+F (.\RIT\lib_RIT.c)(0x5E164933)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DLPC175x_6x-o .\lib_rit.o --omf_browse .\lib_rit.crf --depend .\lib_rit.d)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\lpc17xx.h)(0x58493F92)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8FB044)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (RIT\rit.h)(0x5E106EF6)
+I (RIT\../button_EXINT/button.h)(0x5E107060)
+I (RIT\../joystick/joystick.h)(0x5E106EA6)
+I (RIT\../timer/timer.h)(0x5E12020B)
+I (RIT\../led/led.h)(0x5E10C69E)
+F (.\RIT\RIT.h)(0x5E106EF6)()
+F (.\joystick\joystick.h)(0x5E106EA6)()
+F (.\joystick\lib_joystick.c)(0x5E14DDC1)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DLPC175x_6x-o .\lib_joystick.o --omf_browse .\lib_joystick.crf --depend .\lib_joystick.d)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\lpc17xx.h)(0x58493F92)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8FB044)
+I (C:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (joystick\joystick.h)(0x5E106EA6)
+I (joystick\../led/led.h)(0x5E10C69E)
+I (joystick\../timer/timer.h)(0x5E12020B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+F (.\elevator\elevator.c)(0x5E14C368)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Users\dkast\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dkast\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DLPC175x_6x-o .\elevator.o --omf_browse .\elevator.crf --depend .\elevator.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (elevator\elevator.h)(0x5E11F827)
+I (elevator\../led/led.h)(0x5E10C69E)
+F (.\elevator\elevator.h)(0x5E11F827)()
